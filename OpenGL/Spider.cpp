@@ -5,7 +5,7 @@
 #include<GL/glut.h>
 #include<math.h>
 #define pi 3.142857
-#define DEG2RAD 3.14159/180.0
+#define DEG2RAD pi/180.0
 
 // function to initialize
 void myInit(void)
