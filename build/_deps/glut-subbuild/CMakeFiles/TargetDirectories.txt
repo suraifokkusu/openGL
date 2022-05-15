@@ -1,3 +1,0 @@
-/home/mikita/progy/C++/OpenGLTest/build/_deps/glut-subbuild/CMakeFiles/glut-populate.dir
-/home/mikita/progy/C++/OpenGLTest/build/_deps/glut-subbuild/CMakeFiles/edit_cache.dir
-/home/mikita/progy/C++/OpenGLTest/build/_deps/glut-subbuild/CMakeFiles/rebuild_cache.dir

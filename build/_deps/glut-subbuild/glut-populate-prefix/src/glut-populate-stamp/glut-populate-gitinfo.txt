@@ -1,3 +1,0 @@
-repository='https://github.com/markkilgard/glut'
-module=''
-tag='origin'
