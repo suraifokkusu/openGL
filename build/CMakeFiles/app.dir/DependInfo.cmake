@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mikita/progy/C++/OpenGLTest/main.cpp" "CMakeFiles/app.dir/main.cpp.o" "gcc" "CMakeFiles/app.dir/main.cpp.o.d"
+  "/home/mikita/progy/C++/OpenGLTest/spider.cpp" "CMakeFiles/app.dir/spider.cpp.o" "gcc" "CMakeFiles/app.dir/spider.cpp.o.d"
   )
 
 # Targets to which this target links.

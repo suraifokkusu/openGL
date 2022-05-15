@@ -1,1 +1,1 @@
-/usr/bin/c++ -L/home/linuxbrew/.linuxbrew/Cellar/freeglut/3.2.2/lib -lglut CMakeFiles/app.dir/main.cpp.o -o app  /usr/lib64/libGLU.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so -lglut 
+/usr/bin/c++ -L/home/linuxbrew/.linuxbrew/Cellar/freeglut/3.2.2/lib -lglut CMakeFiles/app.dir/spider.cpp.o -o app  -lglut /usr/lib64/libGLU.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so -lglut 
