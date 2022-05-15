@@ -1,0 +1,1 @@
+/usr/bin/c++ -L/home/linuxbrew/.linuxbrew/Cellar/freeglut/3.2.2/lib -lglut CMakeFiles/OpenGl.dir/main.cpp.o -o OpenGl  /usr/lib64/libGLU.so /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so -lglut 
