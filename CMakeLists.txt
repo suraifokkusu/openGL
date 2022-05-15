@@ -1,9 +1,18 @@
 cmake_minimum_required(VERSION 3.16)
-
+set(CMAKE_CXX_STANDARD 20)
 project(app)
-add_executable(app main.cpp)
+
+include(FetchContent)
+FetchContent_Declare(
+    glut
+    GIT_REPOSITORY https://github.com/markkilgard/glut
+)
+
+FetchContent_MakeAvailable(glut)
+
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
-include_directories( ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} )
-target_link_libraries(app PRIVATE OpenGL::GL OpenGL::GLU GLUT::GLUT)
-target_compile_features(app PRIVATE cxx_std_20)
+
+add_executable(${PROJECT_NAME} spider.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE glut OpenGL::GL OpenGL::GLU GLUT::GLUT)
+#target_link_libraries(${PROJECT_NAME} glut)
